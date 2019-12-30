@@ -1,4 +1,4 @@
-# Install script for directory: /Users/sangryulyun/CLionProjects/Cpp_tutorial
+# Install script for directory: /Users/sangryulyun/Documents/VisualCamp/C-tutorials
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/sangryulyun/CLionProjects/Cpp_tutorial/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/sangryulyun/Documents/VisualCamp/C-tutorials/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
