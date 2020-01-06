@@ -7,10 +7,20 @@
 #IncludeRegexTransform: 
 
 /Users/sangryulyun/Documents/VisualCamp/C-tutorials/main.cpp
-iostream
+chrono
+-
+condition_variable
+-
+cstdio
+-
+functional
+-
+mutex
+-
+queue
 -
 thread
 -
-mutex
+vector
 -
 
