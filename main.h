@@ -12,13 +12,19 @@ public:
     return private_number;
   }
 
+  /// helper function for initialization of static variables.
   static int doubleValue(int value){
     return value * 2;
   }
 
-  int sum(int value){
+  int private_sum(int value){
     private_number += value;
     return private_number;
+  }
+
+  int public_sum(int value){
+    public_number += value;
+    return public_number;
   }
 
 private:
